@@ -1,0 +1,31 @@
+/*header*/
+.logo{
+	float: left;
+	height: 90px;
+	margin: 5px 123px 26px 140px;
+}
+.nav-li{
+	float: left;
+	font-size: 16px;
+	padding: 50px;
+}
+.clear{
+	clear: both;
+}
+.wraper-image{
+	width: 1600px;
+	position: relative;
+}
+.p{ 
+	position: absolute;
+	top: 140px;
+	left: 550px;
+}
+.p1{
+	color: #fff;
+	font-size: 22px;
+}
+.p2{
+	color: #fff;
+	font-size: 48px;
+}
