@@ -1,3 +1,7 @@
+body{
+	height: 1800px;
+	/*padding-top: 100px;*/
+}
 /*header*/
 .logo{
 	float: left;
@@ -42,7 +46,7 @@
 }
 .wraper-image img{width: 100%;}
 header {
-	margin-bottom: 120px;
+	margin-bottom: 100px;
 }
 /*article*/
 .h4{
