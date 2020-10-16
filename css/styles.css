@@ -7,7 +7,11 @@
 .nav-li{
 	float: left;
 	font-size: 16px;
-	padding: 50px;
+	margin: 48px auto 51px auto;
+}
+.nav-a{
+	color: #181C28;
+	padding: 45px;
 }
 .clear{
 	clear: both;
@@ -19,7 +23,7 @@
 .p{ 
 	position: absolute;
 	top: 140px;
-	left: 550px;
+	left: 650px;
 }
 .p1{
 	color: #fff;
@@ -28,4 +32,58 @@
 .p2{
 	color: #fff;
 	font-size: 48px;
+}
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+}
+.wraper-image img{width: 100%;}
+header {
+	margin-bottom: 120px;
+}
+/*article*/
+.h4{
+	margin: 92px auto 83px 70px;
+	font-size: 22px;
+	color: #FF7A00;
+}
+.container1{
+	/*height: 680px;*/
+	width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.image2{
+	width: 570px;
+	
+}
+.child1 h2 {
+	width: 519px;
+	font-size: 36px;
+	margin: auto auto 22px auto;
+}
+.child1 p{
+	width: 570px;
+	font-size: 16px;
+	margin: auto auto 13px auto;
+}
+.child2 h2 {
+	width: 519px;
+	font-size: 36px;
+	margin: auto auto 22px auto;
+}
+.child2 p{
+	width: 570px;
+	font-size: 16px;
+	margin: auto auto 13px auto;
+}
+.child1 {
+	float:left; 
+	margin-right: 10px;
+}
+.child2 {
+	float: left;
 }
