@@ -17,13 +17,12 @@
 	clear: both;
 }
 .wraper-image{
-	width: 1600px;
 	position: relative;
 }
 .p{ 
 	position: absolute;
-	top: 140px;
-	left: 650px;
+	top: 130px;
+	left: 520px;
 }
 .p1{
 	color: #fff;
@@ -39,6 +38,7 @@
 	left: 0;
 	width: 100%;
 	z-index: 3;
+	background-color: #fff;
 }
 .wraper-image img{width: 100%;}
 header {
@@ -51,8 +51,8 @@ header {
 	color: #FF7A00;
 }
 .container1{
-	/*height: 680px;*/
-	width: 1150px;
+	
+	width: 1160px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -82,8 +82,20 @@ header {
 }
 .child1 {
 	float:left; 
-	margin-right: 10px;
+	margin-right: 20px;
 }
 .child2 {
 	float: left;
+}
+.a-c{
+	color: #FF7A00;
+}
+.pp::after {
+	content: '';
+	margin-left: 20px;
+	width: 47px;
+	height: 4px;
+	background-color: #FF7A00;
+	display: block;
+	display: inline-block;
 }
